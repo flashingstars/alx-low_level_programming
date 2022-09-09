@@ -1,21 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: 0 (Success)
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char str['z'];
-	int ch, i, n = 'a';
+	char ch;
 
-	while ((ch <= getchar()) != EOF && n <= 'z')
-		str[n++] = ch;
-	for (i = 'a'; i < n; ++i)
-		putchar(str[i]);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
-
 	return (0);
 }
