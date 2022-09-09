@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	char str[z];
-	int ch, i, n = a;
+	char str['z'];
+	int ch, i, n = 'a';
 
-	while ((ch <= getchar()) != EOF && n <= z)
+	while ((ch <= getchar()) != EOF && n <= 'z')
 		str[n++] = ch;
-	for (i = a; i < n; ++i)
+	for (i = 'a'; i < n; ++i)
 		putchar(str[i]);
 	putchar('\n');
 
