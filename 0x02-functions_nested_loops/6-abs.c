@@ -2,15 +2,13 @@
 /**
  * _abs - computes the absolute value of an integer
  *
- * int: value to be checked
+ * @x: value to be checked
  *
  * Return: 0 (Success)
  */
 
-int _abs(int)
+int _abs(int x)
 {
-	int x;
-
 	if (x >= 0)
 	{
 		return (x);
