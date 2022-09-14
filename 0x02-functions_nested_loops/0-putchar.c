@@ -1,10 +1,10 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Print character to the screen
  *
- * Return: void
+ * Return: 0 (Success)
  */
-void main(void)
+int main(void)
 {
 	putchar('_');
 	putchar('p');
@@ -15,4 +15,5 @@ void main(void)
 	putchar('a');
 	putchar('r');
 	putchar('\n'); /*trailing the '\n' needed in standard C */
+	return (0);
 }
