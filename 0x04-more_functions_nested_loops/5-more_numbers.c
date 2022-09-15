@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - prints digits five times
+ * more_numbers - prints digits 0 to 14 ten times
  *
  */
 
