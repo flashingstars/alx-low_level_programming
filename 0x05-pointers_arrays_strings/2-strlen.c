@@ -9,11 +9,16 @@
  * Return: length of string
  */
 
-int int_strlen(char *s)
+int_strlen(char *s)
 {
 	int a;
 
-	a = strlen(s);
+	a = 0;
+
+	while (s[a] != '\0')
+	{
+		a++;
+	}
 
 	return (a);
 }
