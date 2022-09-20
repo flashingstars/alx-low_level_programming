@@ -19,7 +19,7 @@ int main(void)
 	while (x <= 2645)
 	{
 		c = rand() % 123;
-		X += c;
+		x += c;
 		putchar(c);
 	}
 	putchar(2772 - x);
