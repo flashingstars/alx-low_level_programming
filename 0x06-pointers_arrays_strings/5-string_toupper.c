@@ -3,14 +3,13 @@
 /**
  * string_toupper - change case from lower to upper
  *
- * @: string to be changed to uppercase
+ * @str: string to be changed to uppercase
  *
- * Return: string in uppercase characters
+ * Return: string pointer to uppercase
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-	char str;
 	int i;
 
 	for (i = 0; i != '\0'; i++)
