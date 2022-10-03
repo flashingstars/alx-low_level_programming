@@ -20,4 +20,8 @@ Directory 0x08-recursion contains exercises that have functions calling function
 
 Directory 0x0A-argc_argv contains code utilizing the argc argv[] arguments.
 
+Directory 0x09-static_libraries contains a static library file, a bash script that when executed creates a static library and a main header with all prototypes.
+
+Directory 0x0B-malloc_free contains files that utilize malloc free functions.
+
 There are additional README.md files in each directory that helps explain the tasks in detail, main.h files and main.c or _putchar _files that are either used to call functions or are called in functions.
