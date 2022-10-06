@@ -8,6 +8,7 @@
  *
  * Return: termination with
  * status value of 98
+ * or pointer to memory block
  */
 
 void *malloc_checked(unsigned int b)
@@ -20,5 +21,6 @@ void *malloc_checked(unsigned int b)
 	{
 		exit(98);
 	}
-
+	
+	return (ptr);
 }
