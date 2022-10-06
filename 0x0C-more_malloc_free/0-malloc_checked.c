@@ -6,9 +6,7 @@
  *
  * @b: the number of bytes to be allocated
  *
- * Return: termination with
- * status value of 98
- * or pointer to memory block
+ * Return: pointer to memory allocated
  */
 
 void *malloc_checked(unsigned int b)
