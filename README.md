@@ -24,4 +24,7 @@ Directory 0x09-static_libraries contains a static library file, a bash script th
 
 Directory 0x0B-malloc_free contains files that utilize malloc free functions.
 
+Directory 0x0C-more_malloc_free contains more files utilizing malloc function to allocate memory and free function to free memory.
+
+
 There are additional README.md files in each directory that helps explain the tasks in detail, main.h files and main.c or _putchar _files that are either used to call functions or are called in functions.
