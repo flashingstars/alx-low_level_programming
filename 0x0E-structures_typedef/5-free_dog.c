@@ -1,8 +1,9 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * free_dog - frees dogs
+ * free_dog - frees memory allocated to dog
  * 
  * @d: name of username
  */
