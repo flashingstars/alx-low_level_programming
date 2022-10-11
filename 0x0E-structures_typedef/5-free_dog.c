@@ -4,7 +4,7 @@
 
 /**
  * free_dog - frees memory allocated to dog
- * 
+ *
  * @d: name of username
  */
 
