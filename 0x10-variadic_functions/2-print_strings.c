@@ -21,7 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	if (!separator)
 		return;
-	
+
 	for (i = 0; i < n; i++)
 	{
 		str = va_arg(words, char*);
