@@ -12,30 +12,17 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	char *dup;
-	int len;
-	list_t *new;
+	struct list_s *temp = NULL;
+	int i;
 
-	new = malloc(sizeof(list_t));
-
-	if (new == NULL)
+	temp = (struct list_s *)malloc(sizeof(struct list_s));
+	if (temp == NULL)
 		return (NULL);
-	dup = strdup(str);
-
-	if (dup == NULL)
-	{
-		free(new);
-		return (NULL);
-	}
-
-	for (len = 0; str[len];)
-		len++;
-
-	new->str = dup;
-	new->len = len;
-	new->next = *head;
-
-	*head = new;
-
-	return (new);
+	temp->str = strdup(str);
+	for (i = 0; str[i] != '\0'; i++)
+		;
+	temp->len = i;
+	temp->next = *head;
+	*head = temp;
+	return (temp);
 }
