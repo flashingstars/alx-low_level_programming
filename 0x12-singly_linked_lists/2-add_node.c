@@ -11,11 +11,12 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	struct list_s *new1;
+	list_t *temp;
 	unsigned int i = 0;
 
 	while (str[i])
 		i++;
+
 	temp = malloc(sizeof(list_h));
 
 	if (!temp)
@@ -26,5 +27,7 @@ list_t *add_node(list_t **head, const char *str)
 	temp->next = (*head);
 	(*head) = temp;
 
-	return (*head);
+	free(temp);
+
+	return (new);
 }
