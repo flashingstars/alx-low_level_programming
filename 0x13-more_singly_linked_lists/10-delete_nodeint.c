@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * delete_nodeint_at_index - deletes the node by a given
  *                           index of a linked list
@@ -8,6 +9,7 @@
  * Return: 1 - if function succeeds,
  *        -1 - if function fails
  */
+
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *tmp, *copy = *head;
