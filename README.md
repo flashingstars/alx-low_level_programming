@@ -26,5 +26,23 @@ Directory 0x0B-malloc_free contains files that utilize malloc free functions.
 
 Directory 0x0C-more_malloc_free contains more files utilizing malloc function to allocate memory and free function to free memory.
 
+Directory 0x0D-preprocessor has tasks that are compiled upto the preprocessor stage before being manipulated.
+
+0x0E-structures_typedef contains tasks that create the data type struct.
+
+Directory 0x0F-function_pointers contains tasks that create pointers whne calling functions.
+
+Directory 0x10-variadic_functions has files with variadic functions called in them.
+
+Directory 0x12-singly_linked_lists creates and manipulates singly linked lists.
+
+Directory 0x13-more_singly_linked_lists has more tasks aimed at improving singly linked lists knowledge.
+
+Directory 0x14 has tasks that manipulate data at the bit level.
+
+Directory 0x15 has tasks that pertain POSIX environment.
+
+Directory 0x17 has tasks that create doubly linked lists.
+
 
 There are additional README.md files in each directory that helps explain the tasks in detail, main.h files and main.c or _putchar _files that are either used to call functions or are called in functions.
