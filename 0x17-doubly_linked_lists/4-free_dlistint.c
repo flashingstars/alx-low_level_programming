@@ -1,12 +1,9 @@
 #include "lists.h"
-
 /**
- * free_dlistint - frees all nodes in a list
- *
- * @head: pointer to first node
- *Return: nothing
+ * free_dlistint - frees a list
+ * @head : head of the list
+ * Return: Nothing
  */
-
 void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *temp;
@@ -14,7 +11,7 @@ void free_dlistint(dlistint_t *head)
 	while (head)
 	{
 		temp = head;
-		head = heaad->next;
+		head = head->next;
 		free(temp);
 	}
 }
